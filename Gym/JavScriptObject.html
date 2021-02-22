@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>JavaScrpt Object</h1>
+    <p id="demo">Message</p>
+    <button type="button" onclick="mytime()">Click here</button>
+    <!-- <button type="button" onclick="this.innerHTML=Date()">Click Here</button> --> -->
+    <script>
+        function mytime() {
+            var time = new Date().getHours();
+            var greeting;
+            if (time < 18) {
+                greeting = "Good Day";
+            } else {
+                greeting = "Good Evening";
+            }
+            document.getElementById("demo").innerHTML = greeting;
+        }
+
+        // let cars = ["Honda","BMW","Maruti"];
+
+        // document.getElementById("demo").innerHTML = cars.toString();
+
+        // var str = "amruta";
+        // var len = str.length;
+
+        // document.getElementById("demo").innerHTML = len;
+        // var person = {name:"amu", lastname:"Panchal",age:22};
+
+        // document.getElementById("demo").innerHTML = person.name + "is" + person.age + "Yerar Old";
+    </script>
+</body>
+
+</html>

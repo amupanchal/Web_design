@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiteness </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('img/Gym2.jpg');
+            color: white;
+            font-family: 'Castoro', serif;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #left {
+            border: 2px solid rgb(65, 1, 1);
+            display: inline-block;
+            position: absolute;
+            left: 22px;
+            top: 27px;
+        }
+
+        #left img {
+            width: 119px;
+        }
+
+        #left h3 {
+            line-height: 10px;
+            text-align: center;
+            font-size: 12;
+        }
+
+        #mid {
+            border: 2px ridge rgb(168, 235, 45);
+            display: block;
+            width: 36%;
+            margin: 29px auto;
+        }
+
+        #right {
+            border: 2px ridge rgb(16, 66, 230);
+            position: absolute;
+            right: 26px;
+            top: 31px;
+            display: inline-block;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+
+        }
+
+        .btn {
+            padding: 1px;
+            border: 2px solid black;
+            font-family: 'Castoro', serif;
+            margin: 11px auto;
+            font-size: 15px;
+            background-color: rgb(94, 91, 91);
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: rgb(31, 30, 30);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container" id="left">
+            <img src="img/Logo.jpg" alt="">
+            <h3>Fitnesss</h3>
+        </div>
+        <div class="container" id="mid">
+            <ul class="navbar">
+                <li><a href="http://">Home</a></li>
+                <li><a href="http://">About Us</a></li>
+                <li><a href="http://">Trainer</a></li>
+                <li><a href="http://">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="container" id="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+
+    </header>
+</body>
+
+</html>
